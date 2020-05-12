@@ -1,0 +1,193 @@
+/*------------------------------------------------------------------
+[Dark Mode Stylesheet]
+
+    Project:    Wedge - Personal Website, Portfolio, Resume HTML Template
+    Version:    1.0
+    Created on:    14/03/2020 
+    Last change:    15/03/2020 [Updated color palette]
+-------------------------------------------------------------------*/
+
+#main-header {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.98);
+}
+
+#website-logo 
+    span {
+        color: #000;
+}
+
+body, 
+    #hello-line {
+        background-color: #000;
+}
+
+#website-logo, 
+#main-nav a::before, 
+#main-nav a::after, 
+#menu-button span, 
+#menu-button::before, 
+#menu-button::after {
+    background-color: #fff;
+}
+
+#about-media-col {
+    background-color: #353535;
+}
+
+#social-links 
+    a 
+        i:hover {
+            color: #03A9F4;
+}
+
+.section-heading::after {
+    background-color: #0eb987;
+}
+
+.section-heading span, 
+.exp-company, 
+.portfolio-item-about h2, 
+.portfolio-item-link, 
+.testimonial-description, 
+.contact-form-input-box label, 
+.contact-form-input, 
+#main-nav a, 
+#hello-line, 
+#social-links i, 
+#contact-email, 
+#contact-social-links a:hover i {
+        color: #fff;
+}
+
+.skill-body, 
+.service-body, 
+.skill-exp b, 
+.portfolio-item, 
+.client-body,
+#about {
+        background-color: #2d2d2d;
+}
+
+.skill-body {
+    border-bottom-color: #bb8f0a;
+}
+
+.skill-body:hover, 
+.service-body:hover, 
+.skill-body:hover .skill-exp b, 
+.portfolio-item:hover, 
+.service-icon, 
+.testimonial-image-and-link a, 
+#testimonials-body, 
+#contact-form-body {
+        background-color: #353535;
+}
+
+.skill-name, 
+.service-name {
+    color: #fff;
+    border-bottom-color: #424242;
+}
+
+.skill-description, 
+.service-description, 
+.exp-about, 
+.portfolio-item-description, 
+#about-main-text, 
+#contact-message p {
+        color: #dcdcdc;
+}
+
+.skill-exp b {
+    color: #bbb;
+}
+
+.skill-body:hover, 
+.portfolio-item:hover, 
+.service-body:hover, 
+#contact-form-body {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+
+.exp-shape {
+    opacity: 0.2;
+}
+
+.exp-years, 
+.testimonial-arrow i:hover {
+    color: #a5a5a5;
+}
+
+.portfolio-item-link::after {
+    background-color: #a5a5a5;
+}
+
+.exp-position, 
+.portfolio-item-link:hover span, 
+.service-price, 
+.service-cta-btn:hover, 
+.testimonial-user-name, 
+.testimonial-image-and-link a:hover i, 
+.contact-form-field-message, 
+#contact-form-body h2 {
+    color: #ffc107;
+}
+
+.portfolio-item-link:hover::after {
+    background-color: #ffc107;
+}
+
+.service-body {
+    border-bottom-color: #353e6e;
+}
+
+.service-icon {
+    border: 1px solid #000;
+}
+
+.service-cta-btn {
+    color: #fff;
+    border-style: outset;
+    -webkit-transition: 0.2s ease color;
+    -moz-transition: 0.2s ease color;
+    -o-transition: 0.2s ease color;
+    -ms-transition: 0.2s ease color;
+    transition: 0.2s ease color;
+}
+
+.service-price, 
+.service-cta-btn {
+    border-color: #424242;
+}
+
+.client i {
+    color: #c7c7c7;
+}
+
+.exp-designation-company-dash, 
+.testimonial-arrow i {
+    color: #808080;
+}
+
+#contact-email::after {
+    background-color: #4e4e4e;
+}
+
+#contact-form-message-sending {
+    background-color: #03A9F4;
+}
+
+#contact-form-messages-cover .contact-form-message, 
+#main-cta-link, 
+#main-cta-link:hover {
+    -webkit-box-shadow: 0 5px 10px #212121;
+    -moz-box-shadow: 0 5px 10px #212121;
+    -o-box-shadow: 0 5px 10px #212121;
+    -ms-box-shadow: 0 5px 10px #212121;
+    box-shadow: 0 5px 10px #212121;
+}
